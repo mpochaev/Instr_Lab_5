@@ -4,6 +4,7 @@ class Main {
         System.out.println(Commit2());
         System.out.println(Commit3());
         System.out.println(Commit4());
+        System.out.println(Commit5());
     }
 
     static String DefaultMessage() {
@@ -17,5 +18,8 @@ class Main {
     }
     static String Commit4() {
         return "Коммит #4";
+    }
+    static String Commit5() {
+        return "Коммит #5";
     }
 }
